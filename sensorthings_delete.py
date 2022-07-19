@@ -9,7 +9,7 @@ auth_pass = ''
 #thing + location
 #========================================================================
 obj = "Things"
-idx = "33"
+idx = "104"
 delete = requests.delete(url+ obj + "(" + idx + ")", auth=HTTPBasicAuth(auth_user, auth_pass))
 content = delete.content
 print(content)
